@@ -14,4 +14,9 @@ if choice1 == "red":
         print("The hallway leads to a locked door... Suddenly subtle footsteps are directed behind you. BOO! GAME OVER!")
 
 if choice1 == "blue":
-    print("A hallway is shown with a mirror at the end. ")
+    print("A hallway is shown with a mirror at the left end. On the right end of the hallway is a beam of light.")
+    choice3 = input("at the end of the hallway, do you go LEFT to the mirror, or RIGHT to the beam of light? (LEFT/RIGHT)").lower()
+    if choice3 == "left":
+        print("A reflection of a person is shown behind you with a weapon. Loading your firsts you punch him right on the temple. He was shown unconscious. You survived the killer. Woohoo!")
+    else:
+        print("You stare at the beam of light seeing a lamp. WHOOSH! The sound of a fast knife slices through you. You drop to the ground dead. GAME OVER!")
